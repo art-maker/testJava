@@ -9,6 +9,7 @@ public class SearchTests {
     void successfulSearchTest() {
         open("https://ya.ru/");
         $("[name=text]").setValue("selenide").pressEnter();
-        $("[role=text]").shouldHave(text("Selenide"));
+        $("[role=text]").shouldHave(text("QAQAQA"));
+
     }
 }
